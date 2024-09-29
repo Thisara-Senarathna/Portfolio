@@ -337,7 +337,7 @@ export default function Home() {
       {/* allprojects */}
       <div
         id="projects"
-        className="container px-16 flex-grow mb-16  text-xs sm:text-sm md:text-base"
+        className="container md:max-w-3xl lg:max-w-5xl  text-xs sm:text-sm md:text-base mb-16"
       >
         <h1 className="text-2xl text-center font-semibold my-8">Projects</h1>
         <div
