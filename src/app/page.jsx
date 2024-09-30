@@ -80,7 +80,7 @@ export default function Home() {
           initial="hidden"
           animate="visible"
           variants={containerVariants}
-          className="flex flex-col lg:flex-row w-full pt-16 justify-center items-center gap-4"
+          className="flex flex-col-reverse lg:flex-row w-full pt-16 justify-center items-center gap-4 text-xs sm:text-sm md:text-base"
         >
           <motion.div
             className="w-full lg:w-7/12 p-10 mx-auto flex flex-col mb-16 bg-white rounded-lg shadow-2xl shadow-gray-300 text-center lg:text-start"
@@ -95,7 +95,7 @@ export default function Home() {
                 animate={{ opacity: 1 }}
                 transition={{ duration: 1 }}
               >
-                Hi
+                Hello !
               </motion.span>
               <motion.span
                 className="mb-4 text-3xl lg:text-4xl"
@@ -128,7 +128,7 @@ export default function Home() {
               <motion.a
                 href="/cv/Thisara-Senarathna.pdf"
                 download="Thisara_Senarathna_CV.pdf"
-                className="flex items-center gap-4 hover:text-dark p-4 px-8  rounded-lg bg-gray-200 hover:bg-accent-secondary  transform transition-all duration-300 ease-in-out "
+                className="flex items-center justify-center gap-4 hover:text-dark p-4 w-56  rounded-lg bg-gray-200 hover:bg-accent-secondary  transform transition-all duration-300 ease-in-out "
                 variants={buttonVariants}
               >
                 <span>Download CV </span>
@@ -136,7 +136,7 @@ export default function Home() {
               </motion.a>
 
               <motion.button
-                className="flex items-center hover:text-dark p-4 px-8  rounded-lg bg-gray-200 hover:bg-accent-secondary   transform transition-all duration-300 ease-in-out will-change-transform"
+                className="flex items-center justify-center hover:text-dark p-4 w-56  rounded-lg bg-gray-200 hover:bg-accent-secondary   transform transition-all duration-300 ease-in-out will-change-transform"
                 variants={buttonVariants}
               >
                 <span>My Projects</span>
@@ -192,7 +192,7 @@ export default function Home() {
                   delay: 0.3,
                 }}
               >
-                <h3 className="text-xl font-semibold mb-4 text-accent">
+                <h3 className="text-xl font-semibold mb-4 text-accent border-b-2 border-gray-500 pb-2">
                   Front-end
                 </h3>
                 <ul className="space-y-1">
@@ -219,7 +219,7 @@ export default function Home() {
                   delay: 0.4,
                 }}
               >
-                <h3 className="text-xl font-semibold mb-4 text-accent">
+                <h3 className="text-xl font-semibold mb-4 text-accent border-b-2 border-gray-500 pb-2">
                   Back-end
                 </h3>
                 <ul className="space-y-1">
@@ -246,7 +246,7 @@ export default function Home() {
                   delay: 0.5,
                 }}
               >
-                <h3 className="text-xl font-semibold mb-4 text-accent">
+                <h3 className="text-xl font-semibold mb-4 text-accent border-b-2 border-gray-500 pb-2">
                   Tools
                 </h3>
                 <ul className="space-y-1">
@@ -260,7 +260,7 @@ export default function Home() {
         </div>
 
         <div className="w-full py-8 flex flex-col justify-center items-center mt-8 gap-4 mb-16 ">
-          <h2 className="text-xl">What I Know ?</h2>
+          <h2 className="text-2xl font-semibold">What I Know ?</h2>
           <div className="relative w-full max-w-screen-lg overflow-hidden">
             <div className="marquee-container">
               <div className="marquee space-x-4">
@@ -339,7 +339,7 @@ export default function Home() {
         id="projects"
         className="container md:max-w-3xl lg:max-w-5xl  text-xs sm:text-sm md:text-base mb-16"
       >
-        <h1 className="text-2xl text-center font-semibold my-8">Projects</h1>
+        <h1 className="text-3xl text-center font-semibold my-8">Projects</h1>
         <div
           className=" grid grid-cols-1 lg:grid-cols-5 gap-4 justify-center "
           ref={projectRef}

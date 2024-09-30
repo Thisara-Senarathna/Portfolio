@@ -35,14 +35,14 @@ export default function Project1() {
         <div className="flex flex-col gap-4 mb-8">
           <h1 className="text-3xl font-semibold">Introduction</h1>
           <p>
-          This is the first version of my portfolio website. It is a simple static site, built using Next.js and Tailwind CSS, and hosted on a free hosting server. Though This is simple, this project provided me with valuable learning experiences in web development and deployment.{" "}
+          The Sport Facility Management Project facilitates services for players, coaches, arcades, and admins. I was responsible for both frontend and backend development, implementing the signup and login systems with user authentication and authorization. Additionally, I handled the feedback and rating systems, ensuring a seamless user experience across all roles.
           </p>
         </div>
 
 
         {/* video */}
-        <div className="flex flex-col gap-4 mb-16">
-          {/* <h1 className="text-3xl font-semibold">Project Video</h1> */}
+        {/* <div className="flex flex-col gap-4 mb-16">
+          <h1 className="text-3xl font-semibold">Project Video</h1>
           <iframe
             className="rounded-lg w-full h-96"
             width="560"
@@ -53,7 +53,7 @@ export default function Project1() {
             referrerPolicy="strict-origin-when-cross-origin"
             allowFullScreen
           ></iframe>
-        </div>
+        </div> */}
 
 
       </motion.div>
