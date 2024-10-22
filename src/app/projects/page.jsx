@@ -50,7 +50,7 @@ export default function Projects() {
 
 
   return (
-    <section className="mt-32 min-h-screen flex flex-col">
+    <section className=" min-h-screen flex flex-col">
       {/* allprojects */}
       <div id="projects" className="container md:max-w-3xl lg:max-w-5xl flex-grow mb-16  text-xs sm:text-sm md:text-base md:leading-relaxed">
         <h1 className="text-3xl text-center font-semibold my-8">Projects</h1>

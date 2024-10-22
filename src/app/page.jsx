@@ -73,7 +73,7 @@ export default function Home() {
   const isProjectInView = useInView(projectRef, { triggerOnce: true });
 
   return (
-    <section className="w-full mt-32">
+    <section className="w-full">
       <section className="container mx-auto md:max-w-3xl lg:max-w-5xl ">
         {/* hero section */}
         <motion.div
@@ -200,6 +200,7 @@ export default function Home() {
                   <li>CSS</li>
                   <li>JavaScript</li>
                   <li>React JS</li>
+                  <li>Next JS</li>
                   <li>Bootstrap</li>
                   <li>Tailwind CSS</li>
                 </ul>
@@ -229,6 +230,7 @@ export default function Home() {
                   <li>Spring Boot</li>
                   <li>MongoDB</li>
                   <li>MySQL</li>
+                  <li>MSSQL</li>
                 </ul>
               </motion.div>
 
@@ -259,7 +261,7 @@ export default function Home() {
           </div>
         </div>
 
-        <div className="w-full py-8 flex flex-col justify-center items-center mt-8 gap-4 mb-16 ">
+        <div className="w-full py-8 flex flex-col justify-center items-center mt-8 gap-4 mb-8 ">
           <h2 className="text-2xl font-semibold">What I Know ?</h2>
           <div className="relative w-full max-w-screen-lg overflow-hidden">
             <div className="marquee-container">

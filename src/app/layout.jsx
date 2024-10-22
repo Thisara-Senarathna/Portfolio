@@ -23,7 +23,7 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className="mx-auto font-sans mt-32"
+        className="mx-auto font-sans mt-16"
       >
         <Header/>
 

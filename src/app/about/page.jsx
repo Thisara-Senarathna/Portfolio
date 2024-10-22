@@ -44,7 +44,7 @@ export default function About() {
   };
 
   return (
-    <section className="mt-48">
+    <section className="mt-32">
       <div className="container md:max-w-3xl lg:max-w-5xl text-sm md:text-base md:leading-relaxed">
         <div className="flex flex-col lg:flex-row items-center justify-center h-full px-4 mt-24 ">
           {/* Image with Circular Wrapping */}

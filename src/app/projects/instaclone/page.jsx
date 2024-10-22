@@ -61,10 +61,11 @@ export default function Project1() {
         <div className="flex flex-col gap-4  mb-8">
           <h1 className="text-3xl font-semibold">Introduction</h1>
           <p>
-            This is a Intagram Clone Application that made using MongoDB,
+            {/* This is a Intagram Clone Application that made using MongoDB,
             Express JS, React JS and Node JS (MERN stack). I did this small
             project as a funny project following some courses that related with
-            MERN stack. {" "}
+            MERN stack. {" "} */}
+            This is an Instagram Clone application developed using the MERN stack—MongoDB, Express JS, React JS, and Node JS. I built this project as a fun way to apply the concepts learned from various courses focused on MERN stack development. It was a great opportunity to practice full-stack development while building a simplified version of a popular social platform.
           </p>
         </div>
 
@@ -88,11 +89,11 @@ export default function Project1() {
         {/* technology */}
         <div className="flex flex-col gap-4 mb-16">
           <h1 className="text-3xl font-semibold">Technologies Used</h1>
-          <p>I used  MongoDB, Express JS, React JS and Node JS to build this website and as main tools/packages i used , </p>
-          <ul className="">
+          <p>This website was built using the MERN stack: MongoDB, Express, React, and Node.js. For user authentication, JSON Web Token (JWT) was implemented, ensuring secure access control. Additionally, the Nodemailer library was integrated to handle email notifications.</p>
+          {/* <ul className="">
             <li>For Authentication - <span className="text-gray-500 font-semibold">Json Web Token (JWT)</span> </li>
             <li>For Email Notification - <span className="text-gray-500 font-semibold">nodemailer library </span></li>
-          </ul>
+          </ul> */}
     
             {/* icons */}
             <div className="flex space-x-2 text-2xl sm:text-3xl md:text-4xl text-black ">

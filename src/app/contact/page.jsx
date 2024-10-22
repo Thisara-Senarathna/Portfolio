@@ -62,7 +62,7 @@ export default function Contact() {
 
   return (
     <section className="text-xs sm:text-sm md:text-base mt-32  min-h-screen flex flex-col">
-      <div className="container px-16 md:px-32 flex-grow mb-16">
+      <div className="container  md:px-32 flex-grow mb-16">
         <div className="flex flex-col lg:flex-row justify-center items-center mt-20 bg-white py-12 rounded-2xl shadow-lg gap-8 lg:gap-0 ">
           <div className="w-2/3 lg:w-1/2 flex flex-col mx-auto lg:p-8  text-center gap-4">
             <h3 className="text-xl font-bold mb-4">Contact Me</h3>
