@@ -23,7 +23,7 @@ import {
 export default function Rover() {
   const router = useRouter();
   return (
-    <section className="">
+    <section className="mt-28">
       <motion.div
        initial={{ opacity: 0,y:100 }}
        animate={{ opacity: 1, y:0 }}
